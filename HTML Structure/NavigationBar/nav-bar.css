@@ -1,10 +1,10 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
     background-color: #CCCCCC;
 }
 
-nav ul{
+nav ul {
     background-color: #444;
     text-align: center;
     padding: 0px;
@@ -12,7 +12,7 @@ nav ul{
     list-style: none;
 }
 
-nav ul li{
+nav ul li {
     font-size: 24px;
     line-height: 40px;
     height: 40px;
