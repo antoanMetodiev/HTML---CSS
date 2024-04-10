@@ -1,0 +1,36 @@
+body {
+    background-color: #f9f7cf;
+}
+
+header {
+    background-color: #f2dcbb;
+    width: 40%;
+    border-radius: 13px;
+    padding-block: 1px;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 52px;
+}
+
+main p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    width: 40%;
+    margin-block: 60px;
+}
+
+main {
+    text-align: center;
+}
+
+footer article {
+    text-align: center;
+    padding: 15px;
+    font-size: 50px;
+    width: 40%;
+    font-size: 50px;
+    background-color: #f2dcbb;
+}
