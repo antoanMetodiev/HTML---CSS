@@ -1,0 +1,57 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 70px;
+}
+
+th {
+    background-color: gray;
+    text-align: left;
+    padding-left:  10px ;
+}
+
+blockquote {
+    border-left: 4px solid #ccc;
+    font-style: italic;
+    font-family: Helvetica, sans-serif;
+    font-weight: 500px;
+    line-height: 40px;
+    margin-left: 22px;
+    padding: 1px 40px 0 30px;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(221,221,221);
+}
+
+blockquote li {
+    text-align: end;
+}
+
+th, td {
+   width: 700px;
+   height: 32px;
+   border: 1px solid #ccc
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Georgia, serif;
+    font-weight: 300;
+}
+
+.first-level {
+    list-style-type: square;
+}
+
+.first-article {
+    margin-block: 30px 40px;
+}
+
+.second-level > li {
+    list-style-type: disc;
+}
+
+.third-level.li-Tags li {
+    list-style-type: circle;
+}
