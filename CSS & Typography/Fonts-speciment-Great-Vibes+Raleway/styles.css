@@ -1,0 +1,27 @@
+body {
+    margin: 70px 50px;
+    font-family: Raleway, sans-serif;
+    line-height: 1.5;
+}
+
+article {
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-family: Great Vibes, cursive;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.first-level {
+    list-style-type: square;
+}
+
+.second-level > li {
+    list-style-type: disc;
+}
+
+.third-level.li-Tags li {
+    list-style-type: circle;
+}
