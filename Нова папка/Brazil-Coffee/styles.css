@@ -1,0 +1,23 @@
+section {
+    border: 8px solid lightgrey;
+    width: 450px;
+    padding: 12px;
+}
+
+h2 {
+    font-weight: 200px;
+}
+
+
+button {
+    background-color: #d5384d;
+    color: #fff;
+    font-size: 18px;
+    width: 240px;
+    padding: 10px;
+    
+}
+
+div button:hover {
+    background-color: burlywood;
+}
