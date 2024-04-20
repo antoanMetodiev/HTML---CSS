@@ -1,0 +1,15 @@
+.conteiner {
+    width: 650px;
+}
+
+.conteiner {
+    position: relative;
+    margin: 180px auto;
+}
+
+.second-image {
+  position: absolute;
+  z-index: 0;
+  top: -80px;
+  right: 200px;
+}
