@@ -1,0 +1,38 @@
+div {
+   width: 269px;
+   margin: 0 auto;
+   background-color: #0098E2;
+   border-radius: 6px;
+}
+
+.ul-conteiner {
+    list-style-type: none;
+    padding: 6px 0 4px 13px;
+}
+
+.ul-conteiner li {
+    display: inline-block;
+    background-color: silver;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.ul-conteiner li:hover {
+    cursor: pointer;
+    background-color: #F9F871;
+    color: #AEAC9A;
+}
+
+.ul-conteiner li {
+    margin-right: 12px;
+}
+
+.ul-conteiner li i {
+    display: inline-block;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+}
+
