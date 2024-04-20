@@ -34,7 +34,6 @@ body {
     color: green;
 }
 
-
 /* -----------MAIN-CONTENT------------------ */
 .first-float-image {
     float: right;
@@ -132,10 +131,3 @@ body {
 .top-right-navigations :not(h3) {
     color: green;
 }
-
-
-
-
-
-
-
