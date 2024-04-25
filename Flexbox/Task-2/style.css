@@ -1,0 +1,23 @@
+body {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.section {
+    display: flex;
+    flex-basis: 100vw;
+    gap: 2rem;
+}
+
+.section h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.2;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
