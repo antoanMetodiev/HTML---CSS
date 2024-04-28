@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    margin: 50px;
+}
+
+article header:first-of-type {
+    padding-bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+.navigation {
+    list-style-type: none;
+    display: flex;
+    gap: 28px;
+    color: green;
+}
+
+.navigation li:hover {
+    cursor: pointer;
+}
+
+.heading-level-1 {
+    margin-block: 24px;
+    font-weight: 200;
+}
+
+.text {
+    padding-bottom: 24px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+
