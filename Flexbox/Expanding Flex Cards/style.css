@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.container {
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    display: flex;
+    height: 35%;
+    width: 750px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+img:nth-of-type(1) {
+    width: 12%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+img:nth-of-type(2) {
+    width: 60%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+img:nth-of-type(3) {
+    width: 12%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+img:nth-of-type(4) {
+    width: 12%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+
