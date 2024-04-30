@@ -15,8 +15,6 @@
     
 }
 
-
-
 @media all and (min-aspect-ratio: 8/5) {
     .mq-ar span::after {
         display: inline-block;
@@ -24,7 +22,3 @@
         color: green;
     }
 }
-
-
-
-
