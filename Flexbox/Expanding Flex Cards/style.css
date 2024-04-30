@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     background-color: rgb(238, 238, 238);
 }
@@ -49,5 +48,3 @@ img:nth-of-type(4) {
     object-fit: cover;
     border-radius: 6px;
 }
-
-
