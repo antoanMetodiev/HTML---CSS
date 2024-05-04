@@ -32,9 +32,7 @@
     padding: 16px 0px;
 }
 
-.common-container button {
-    cursor: pointer;
-}
+.common-container button { cursor: pointer; }
 
 .first-buttons {
     text-align: center;
@@ -91,9 +89,7 @@
     position: relative;
 }
 
-.inputs_and_buttons-container * {
-    padding: 8px;
-}
+.inputs_and_buttons-container * { padding: 8px; }
 
 .first-input {
     grid-area: first;
