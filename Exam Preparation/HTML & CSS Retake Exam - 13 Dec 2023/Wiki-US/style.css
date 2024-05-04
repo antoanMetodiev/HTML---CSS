@@ -6,9 +6,7 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Agbalumo';
-}
+body { font-family: 'Agbalumo'; }
 
 .common-container {
     max-width: 900px;
@@ -79,9 +77,7 @@ body {
     text-indent: 34px;
 }
 
-.first-section p:nth-of-type(2) {
-    text-indent: 34px;
-}
+.first-section p:nth-of-type(2) { text-indent: 34px; }
 
 span {  
     display: block;
