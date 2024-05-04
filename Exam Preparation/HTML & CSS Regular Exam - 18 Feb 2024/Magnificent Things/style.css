@@ -28,17 +28,11 @@
     max-width: 638px;
 }
 
-.content-container__first-section {
-    font-size: 22px;
-}
+.content-container__first-section { font-size: 22px; }
 
-.content-container__first-section__first-p {
-    margin-top: 16px;
-}
+.content-container__first-section__first-p {margin-top: 16px; }
 
-.content-container__first-section__second-p {
-    margin-bottom: 40px;
-}
+.content-container__first-section__second-p { margin-bottom: 40px; }
 
 .black-button {
     font-family: 'Inter';
