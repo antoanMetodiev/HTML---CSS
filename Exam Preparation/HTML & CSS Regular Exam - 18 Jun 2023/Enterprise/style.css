@@ -6,9 +6,7 @@
     box-sizing: border-box;
 }
 
-html {
-    font: 14px/1.5 'Inter';
-}
+html { font: 14px/1.5 'Inter'; }
 
 .main-container {
     display: flex;
@@ -39,23 +37,16 @@ html {
     object-fit: cover;
 }
 
-.content {
-    padding: 31px;
-}
+.content { padding: 31px; }
 
-.content h4 {
-    color: #707576;
-}
+.content h4 { color: #707576; }
 
 .content .first-paragraph {
     padding-block: 5px 20px;
     font-size: 21px;
 }
 
-.content .second-paragraph {
-    margin-bottom: 20px;
-
-}
+.content .second-paragraph { margin-bottom: 20px; }
 
 .author-info {
     display: flex;
