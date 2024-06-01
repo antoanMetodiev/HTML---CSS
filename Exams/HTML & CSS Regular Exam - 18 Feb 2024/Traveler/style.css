@@ -1,0 +1,243 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla';
+    font-size: 18px;
+}
+
+.section.first {
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+
+.section.first::before {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.section-first__bcg-img {
+    width: 100%;
+    height: 100%;
+}
+
+.site-logo {
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    left: 45px;
+    top: 25px;
+}
+
+.navigation {
+    display: flex;
+    position: absolute;
+    top: 35px;
+    right: 60px;
+    width: 380px;
+    justify-content: space-between;
+}
+
+.navigation li { list-style: none; }
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.content {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    width: 1200px;
+    min-height: 180px;
+    text-align: center;
+}
+
+.content h2 {
+    margin-bottom: 100px;
+    font-size: 90px;
+    font-family: 'Cormorant Infant';
+}
+
+.content p {
+   width: 600px;
+   margin: 0 auto;
+   font-family: 'Cormorant Infant';
+   font-size: 20px;
+}
+
+/* SECOND-SECTION */
+
+.section.second {
+    position: relative;
+    height: 400px;
+    background-color: #F8F0E9;
+}
+
+.section.second .content-container {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section.second .central-text {
+    font-family: 'Cormorant Infant';
+    font-size: 38px;
+    color: #000;
+    font-weight: 900;
+}
+
+.section.second .text-above-central-text {
+    margin-bottom: 50px;
+}
+
+/* THIRD SECTION */
+
+.section.third {
+    position: relative;
+    height: 200px;
+    background-color: #E14747;
+}
+
+.section.third .text-above-central-text {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.section.third .content-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 260px;
+    color: #fff;
+}
+
+/* SECTION-FOURTH */
+
+.section.fourth {
+    position: relative;
+    height: 1000px;
+    background-color: #F8F0E9;
+}
+
+.section.fourth .container {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 750px;
+    width: 430px;
+}
+
+.section.fourth img {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+}
+
+.section.fourth .title {
+    margin-block: 65px 50px;
+    text-align: center;
+    font-size: 40px;
+    width: 370px;
+    margin-inline: auto;
+    font-family: 'Karla';
+}
+
+.section.fourth .content-container p {
+   margin-bottom: 35px;
+   font-family: 'Cormorant Infant';
+   color: black;
+}
+
+.section.fourth .content-container button {
+    padding: 6px 12px;
+    margin-top: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.section.fourth .content-container .last-button {
+    display: block;
+    margin: 70px auto;
+}
+
+/* FIFTH-SECTION */
+
+.section.fifth {
+    position: relative;
+    min-height: 400px;
+    background-color: #E14747;
+}
+
+.section.fifth .text-above-central-text {
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.section.fifth .content-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 850px;
+    color: #fff;
+}
+
+.section.fifth .content-container button {
+    margin-top: 80px;
+    padding: 14px 22px;
+    border-radius: 20px;
+    background-color: #FAD87A;
+    border: none;
+    cursor: pointer;
+}
+
+/* SECTION-SIXTH */
+
+.section.sixth {
+    height: 200px;
+    background-color: #352B2A;
+    position: relative;
+}
+
+.section.sixth .container {
+    position: absolute;
+    top: 58%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 75px;
+    font-size: 16px;
+    color: #524C4F;
+}
+
+.section.sixth .container p {
+    margin-block: 18px 22px;
+    color: #fff;
+}
+
+.site-logo-footer {
+    width: 60px;
+    height: 38px;
+    position: absolute;
+    left: 0px;
+    top: -42px;
+}
