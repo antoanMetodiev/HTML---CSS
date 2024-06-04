@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Inter';
-}
+body { font-family: 'Inter'; }
 
 /* HEADER */
 
@@ -59,9 +57,7 @@ body {
     line-height: 1.5;
 }
 
-.section.first .content h2 {
-    font-size: 2.6em;
-}
+.section.first .content h2 { font-size: 2.6em; }
 
 .section.first .content p {
     color: #fff;
@@ -78,9 +74,7 @@ body {
 
 /* SECOND-SECTION */
 
-.section.second {
-    height: 17em;
-}
+.section.second { height: 17em; }
 
 .section.second .content-container {
     width: 100%;
@@ -92,9 +86,7 @@ body {
     text-align: center;
 }
 
-.section.second .content-container .content p {
-    font-size: 0.8em;
-}
+.section.second .content-container .content p { font-size: 0.8em; }
 
 .section.second .content-container h2 {
     margin-bottom: 0.8em;
@@ -110,9 +102,7 @@ body {
 
 /* SECTION-THIRD */
 
-.section.third {
-    height: 80em;
-}
+.section.third { height: 80em; }
 
 .section.third .content-container {
     width: 100%;
@@ -141,9 +131,7 @@ body {
     font-size: 1.1em;
 }
 
-.section.third .content-section div h2 {
-    font-size: 1.9em;
-}
+.section.third .content-section div h2 { font-size: 1.9em; }
 
 .section.third .content-section div p {
     line-height: 1.5;
@@ -222,9 +210,7 @@ body {
     margin-block: 0.1em;
 }
 
-.section.fourth .content-container .card .span-bolder {
-    font-weight: bold;
-}
+.section.fourth .content-container .card .span-bolder { font-weight: bold; }
 
 .section.fourth .content-container .card button {
     padding: 0.8em 1.8em;
