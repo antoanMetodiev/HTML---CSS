@@ -201,6 +201,7 @@ a {
 .section.fifth .card-container {
     height: 100%;
     display: flex;
+    justify-content: center;
     padding-block: 1em;
 }
 
