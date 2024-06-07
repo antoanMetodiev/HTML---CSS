@@ -6,9 +6,7 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, sans-serif;
-}
+body { font-family: Arial, sans-serif; }
 
 .site-header {
     display: flex;
@@ -57,9 +55,7 @@ body {
     font-size: 1.2em;
 }
 
-.section.first .content-container h3 {
-    font-size: 1.8em;
-}
+.section.first .content-container h3 { font-size: 1.8em; }
 
 .section.first .content-container form {
     display: flex;
@@ -82,15 +78,11 @@ body {
     background-color: #000;
 }
 
-.section.first img {
-    height: 100%;
-}
+.section.first img { height: 100%; }
 
 /* SECTION-SECOND */
 
-.section.second {
-    height: 38em;
-}
+.section.second { height: 38em; }
 
 .section.second .section-header {
     text-align: center;
@@ -119,9 +111,7 @@ body {
     gap: 3.5em;
 }
 
-.section.second .card-container .card {
-    width: 25em;
-}
+.section.second .card-container .card { width: 25em; }
 
 .section.second .card-container .card .icon-container i {
     display: block;
@@ -217,9 +207,7 @@ body {
 
 /* SECTION-FIFTH */
 
-.section.fifth {
-    height: 28em;
-}
+.section.fifth { height: 28em; }
 
 .section.fifth header {
     text-align: center;
@@ -248,9 +236,7 @@ body {
 
 /* SECTION-SIXTH */
 
-.section.sixth {
-    height: 50em;
-}
+.section.sixth { height: 50em; }
 
 .section.sixth .content-container {
     display: flex;
@@ -318,9 +304,7 @@ body {
     font-weight: bold;
 }
 
-.section.seventh .container .content .small-p {
-    line-height: 1.4;
-}
+.section.seventh .container .content .small-p { line-height: 1.4; }
 
 .section.seventh .container .content input[type="text"] {
     padding: 0.7em 1.1em;
