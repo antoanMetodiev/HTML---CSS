@@ -32,6 +32,8 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Montserrat'; }
 
 .site-header .header-nav li { cursor: pointer; }
 
+/* FIRST-SECTION */
+
 .section.first {
     height: 36em;
     position: relative;
