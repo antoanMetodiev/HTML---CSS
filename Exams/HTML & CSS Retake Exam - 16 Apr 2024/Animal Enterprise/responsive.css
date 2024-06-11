@@ -1,6 +1,4 @@
 @media (max-width: 600px) {
-    /* HEADER */
-
     .home-header {
         height: 12em;
         justify-content: center;
@@ -15,18 +13,11 @@
         text-align: center;   
     }
 
-    .navigation-links-nav.navigation-links-root-class-name12 {
-        flex-direction: column;
+    .navigation-links-nav.navigation-links-root-class-name12 { flex-direction: column; }
 
-    }
+    .home-blog img { width: 100%; }
 
-    .home-blog img {
-        width: 100%;
-    }
-
-    .blog-post-card3-blog-post-card {
-        flex-direction: column;
-    }
+    .blog-post-card3-blog-post-card { flex-direction: column; }
 
     .home-stats {
         grid-template-columns: 1fr 1fr;
@@ -65,5 +56,4 @@
         line-height: 1.3;
         font-weight: bold;
     }
-
 }
