@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans';
+}
+
+/* SITE-HEADER */
+
+.site-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30em;
+    height: 3.15em;
+    background-color: #D01919;
+    color: #fff;
+}
+
+.site-header i {
+    margin-right: 0.4em;
+    cursor: pointer;
+}
+
+/* SECTION-FIRST */
+
+.section.first {
+    height: 32em;
+    position: relative;
+}
+
+.section.first img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section.first .nav {
+    position: absolute;
+    color: #fff;
+    right: 1em;
+    top: 1.5em;
+    display: flex;
+    justify-content: space-around;
+    width: 38em;
+    list-style: none;
+}
+
+.section.first .nav li {
+    cursor: pointer;
+}
+
+.section.first .internal-section {
+    position: absolute;
+    height: 17em;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    color: #fff;
+}
+
+.section.first .internal-section h1 {
+    font-size: 4em;
+    font-weight: 500;
+}
+
+.section.first .internal-section p {
+    width: 27em;
+    align-self: center;
+    text-align: center;
+}
+
+.section.first .internal-section button {
+    padding: 0.5em 1.1em;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #D01919;
+    cursor: pointer;
+}
+
+/* SECTION-SECOND */
+
+.section.second {
+    height: 23em;
+    text-align: center;
+}
+
+.section h2 {
+    margin-top: 1em;
+    font-size: 2em;
+}
+
+.section .red-border {
+    display: block;
+    height: 2px;
+    width: 3em;
+    background-color: #D01919;
+    margin: 2.2em auto;
+}
+
+.section .content-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 5em;
+}
+
+.section .content-container .box-container {
+    width: 23em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.section .content-container .box-container h3 {
+    color: #D01919;
+    font-size: 1em;
+}
+
+.section .content-container img {
+    display: block;
+    width: 5em;
+    height: 5em;
+    margin: 0.5em auto;
+    
+}
+
+/* SECTION-THIRD */
+
+
+.section.third {
+    height: 33.5em;
+    background-color: #EFEFEF;
+    padding-top: 1px;
+}
+
+.section.third .coaches {
+    width: fit-content;
+    margin-inline: auto;
+}
+
+.section.third .person-img {
+    width: 17.5em;
+    height: 11em;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+.section.third .content-container h2 { 
+    font-size: 1.4em;
+    margin-block: -0.3em;
+}
+
+.section.third .box-container p {
+    width: 17em;
+    margin: 0 auto;
+}
+
+/* SITE-FOOTER */
+
+.site-footer {
+    height: 2em;
+    background-color: #D01919;
+    text-align: center;
+    padding: 5px;
+}
