@@ -1,0 +1,215 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+h1,h2,h3,h4,h5,h6,h7 { font-family: 'Abril Fatface';}
+
+/* SECTION-FIRST */
+
+.section.first {
+    height: 58em;
+    margin: 0 auto;
+    position: relative;
+}
+
+.section.first img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section.first .interior-design {
+    position: absolute;
+    top: 4em;
+    left: 3em;
+    width: 16em;
+    height: 12.5em;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.75);
+    padding-left: 1em;
+}
+
+.section.first .interior-design h2 {
+    font-size: 2.4em;
+    margin-block: 0.7em 0.3em;
+    width: 3.3em;
+    padding-bottom: 0.3em;
+    border-bottom: 1.5px solid #fff;
+}
+
+.section.first .internal-section {
+    position: absolute;
+    bottom: 23em;
+    right: 2em;
+    width: 20em;
+    height: 16.4em;
+    padding: 1em;
+    text-align: end;
+    background-color: #A29891;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 4px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.section.first .internal-section .icon-imitation-container {
+    align-self: flex-end;
+    margin: 1em 0.5em 0em 0em;
+}
+
+.section.first .internal-section .icon-imitation-container span {
+    display: inline-block;
+    height: 1.5em;
+    width: 0.3em;
+    background-color: #8D8581;
+}
+
+.section.first .internal-section p {
+    color: #fff;
+    line-height: 1.3;
+}
+
+/* SECTION-SECOND */
+
+.section.second {
+    height: 52em;
+    display: flex;
+}
+
+.section.second .container {
+    display: flex;
+    width: 74%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #F2F0F3;
+}
+
+.section.second .container .content {
+    display: flex;
+    height: 35em;
+    width: 50em;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    margin: 2em 0em 0em -4em;
+}
+
+
+.section.second .container .outside-border {
+    display: block;
+    width: 100%;
+    height: 2.4px;
+    background-color: #8D8581;
+    margin-top: -5.5em;
+}
+
+.section.second .container .content h2 {
+    text-transform: uppercase;
+    font-size: 2.3em;
+    margin-block: -0.7em 0.6em;
+    font-weight: 500;
+}
+
+.section.second .container .content .contact {
+    margin: 1.3em 0em 0.4em 0em;
+}
+
+.section.second .container .content .internal-section {
+    margin-bottom: 1.4em;
+}
+
+.section.second .container .content p {
+    line-height: 1.5;
+    font-size: 1.14em;
+}
+
+.section.second .container .content p span {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 0.5em;
+}
+
+.section.second .container .meta-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    height: 6em;
+    margin: -3em 0em 0em 8em;
+}
+
+.section.second .container .meta-info section {
+    display: flex;
+    gap: 1.5em;
+}
+
+.section.second .container .meta-info section:nth-of-type(2) {
+    width: 36.6em;
+    justify-content: flex-start;
+}
+
+.section.second .container .meta-info .bold {
+    font-weight: bold;
+    margin-right: 0.3em;
+}
+
+.section.second .container .meta-info form {
+    width: 30em;
+    display: flex;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.section.second .container .meta-info form input:nth-of-type(1) {
+    width: 70%;
+    padding: 0.7em 1em;
+    border-radius: 4px;
+    border: none;
+    background-color: #BAB1AD;
+    padding: 1em;
+}
+
+.section.second .container .meta-info form input:nth-of-type(1)::placeholder {
+    color: #fff;
+}
+
+.input-btn {
+    padding: 1em;
+    color: #fff;
+    background-color: #67784D;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Aside */
+
+.section.second .aside-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 25em;
+    height: 100%;
+    justify-content: space-around;
+    padding-left: 1em;
+    background-color: #BAB1AD;
+}
+
+.section.second .aside-info h2 {
+    font-size: 4em;
+    font-weight: 300;
+    color: #fff;
+    font-family: 'Roboto';
+}
+
+.section.second .aside-info p {
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
