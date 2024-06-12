@@ -1,8 +1,5 @@
 @media (max-width: 600px) {
-
-    header nav {
-        flex-direction: column;
-    }
+    header nav { flex-direction: column; }
 
     header nav ul {
         margin-top: 0.8em;
@@ -18,26 +15,16 @@
         padding-block: 1.3em;
     }
 
-    .header-title h1 {
-        font-size: 2em;
-    }
-
-    .header-title p {
-        font-size: 1em;
-    }
-
-    .team-description-wrapper {
-        width: 90%;
-    }
+    .header-title h1 { font-size: 2em; }
+    .header-title p { font-size: 1em; }
+    .team-description-wrapper { width: 90%; }
 
     .team-description-wrapper ul {
         flex-wrap: wrap;
         width: 100%;
     }
 
-    .team-description-wrapper ul li {
-        width: 12.2em;
-    }
+    .team-description-wrapper ul li { width: 12.2em; }
 
     .team-description-wrapper ul li img {
         width: 100%;
@@ -49,15 +36,10 @@
         padding-inline: 4em;
     }
 
-    .blog-news {
-        padding-inline: 2em;
-    }
+    .blog-news { padding-inline: 2em; }
 
     .blog-news ul {
         flex-direction: column;
         gap: 1.5em;
-    }
-
-    .blog-news ul .item .avatar img  {
     }
 }
