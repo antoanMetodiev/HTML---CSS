@@ -67,25 +67,11 @@ body .bcg-img {
     margin-top: 0.4em;
 }
 
-.firstName-container {
-    grid-area: firstName;
-}
-
-.lastName-container {
-    grid-area: lastName;
-}
-
-.email-container {
-    grid-area: email;
-}
-
-.password-container {
-    grid-area: password;
-}
-
-.confirm-password-container {
-    grid-area: confirm-password;
-}
+.firstName-container { grid-area: firstName; }
+.lastName-container { grid-area: lastName; }
+.email-container { grid-area: email; }
+.password-container { grid-area: password; }
+.confirm-password-container { grid-area: confirm-password; }
 
 .register-container .check-input {
     display: inline-block;
