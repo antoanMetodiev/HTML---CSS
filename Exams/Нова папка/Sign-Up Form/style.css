@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans';
+    font-weight: 200;
+    background-color: #E9E9E9;
+}
+
+label {
+    color: #CCCCCC;
+}
+
+input {
+    font-size: 1em;
+    color: #CCCCCC;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    
+}
+
+.card-container img {
+    display: inline-block;
+    height: 500px;
+    max-width: 418px;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.card-container img::after {
+    display: block;
+    content: 'asxsaxaasxas';
+    position: absolute;
+    z-index: 12;
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    opacity: 0.4; /* Променете стойността за желаната степен на затъмняване */
+    pointer-events: none; /* Това гарантира, че псевдо-елементът няма да пречи на взаимодействието с изображението */
+}
+
+.card-container form {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    gap: 1.4em;
+    padding: 2em 0em 0em 2em;
+    background-color: #FAFAFA;
+}
+
+.card-container form input {
+    border: none;
+    border-bottom: 1.3px solid #CCCCCC; 
+    outline: none; 
+    padding: 0px 0px 4px 8px;
+    width: 280px;
+    margin-block: -8px 10px;
+}
+
+.card-container form div {
+    margin-top: 1em;
+}
+
+.card-container form div button {
+    font-size: 0.9em;
+    padding: 0.81em 2em;
+    border-radius: 20px;
+    border: none;
+    background-color: #000;
+    color: #FFFFFF;
+    margin-right: 0.8em;
+    cursor: pointer;
+}
+
+.card-container form div button:hover {
+    background-color: #FAFAFA;
+    color: #000;
+}
+
+.card-container form div a {
+    color: #A0A7B5;
+}
