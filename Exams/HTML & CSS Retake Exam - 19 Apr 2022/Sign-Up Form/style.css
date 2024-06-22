@@ -10,9 +10,7 @@ body {
     background-color: #E9E9E9;
 }
 
-label {
-    color: #CCCCCC;
-}
+label { color: #CCCCCC; }
 
 input {
     font-size: 1em;
@@ -89,6 +87,4 @@ input {
     color: #000;
 }
 
-.card-container form div a {
-    color: #A0A7B5;
-}
+.card-container form div a { color: #A0A7B5; }
