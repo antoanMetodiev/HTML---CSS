@@ -1,15 +1,9 @@
 @media (max-width: 600px) {
-    body > * {
-        min-width: 100%;
-    }
+    body > * { min-width: 100%; }
 
-    .tm-header {
-        width: 100%;
-    }
+    .tm-header { width: 100%; }
 
-    .row tm-header-inner {
-        justify-content: center;
-    }
+    .row tm-header-inner { justify-content: center; }
     
     .game-world-header {
         padding-top: 2.5em;
@@ -27,9 +21,7 @@
         justify-content: center;
     }
 
-    .tm-gallery-page {
-        margin: 0;
-    }
+    .tm-gallery-page { margin: 0; }
 
     #tm-gallery-page-all {
         flex-direction: column;

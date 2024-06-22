@@ -11,9 +11,7 @@ figure {
   padding: 0;
 }
 
-a {
-  transition: all 0.3s ease;
-}
+a { transition: all 0.3s ease; }
 
 html {
   box-sizing: border-box;
