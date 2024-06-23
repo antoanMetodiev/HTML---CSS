@@ -15,9 +15,7 @@ body {
   color: #67686b;
 }
 
-li {
-  list-style: none;
-}
+li { list-style: none; }
 
 header {
   background: linear-gradient(
@@ -51,13 +49,9 @@ header nav ul li a {
   font-weight: bold;
 }
 
-header nav ul li {
-  padding-right: 1em;
-}
+header nav ul li { padding-right: 1em; }
 
-header nav img {
-  width: 50px;
-}
+header nav img { width: 50px; }
 
 .header-title {
   color: white;
