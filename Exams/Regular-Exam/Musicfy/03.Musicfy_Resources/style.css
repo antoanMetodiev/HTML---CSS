@@ -1,0 +1,254 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato';
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat';
+}
+
+/* SITE-HEADER */
+
+body > header {
+    height: 21em;
+    background-color: #1DB954;
+}
+
+body > header > div {
+    display: flex;
+    background-color: #000000;
+    justify-content: space-between;
+    padding-right: 1.3em;
+    height: 2.9em;
+}
+
+body > header img {
+    display: block;
+    height: 2.6em;
+    margin-top: 2px;
+}
+
+body > header > div .header-nav {
+    display: flex;
+    gap: 1.5em;
+    align-self: center;
+}
+
+body > header > div .header-nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body > header h2 {
+    margin-top: 1.6em;
+    text-align: center;
+    color: #fff;
+    font-size: 1.57em;
+}
+
+/* SECTION-FIRST */
+
+.section.first {
+    height: 20em;
+    position: relative;
+}
+
+.section.first .music-img {
+    display: block;
+    position: absolute;
+    top: -14em;
+    height: 35em;
+    z-index: 1;
+}
+
+.section.first .plans-container {
+    display: flex;
+    position: absolute;
+    top: 12%;
+    left: 50.8%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    gap: 9em;
+}
+
+.section.first .plans-container .plan {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+    border-radius: 12px;
+}
+
+.section.first .plans-container .plan > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: #FFFFFF;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 1em 2em;
+    width: 23em;
+    height: 21em;
+}
+
+.section.first .plans-container .plan > div > h2 {
+    margin-block: 0.3em 1.2em;
+}
+
+.section.first .plans-container .plan > div input {
+    margin-right: 0.1em;
+}
+
+.section.first .plans-container .plan > div button {
+    align-self: center;
+    margin-top: 0.6em;
+    background-color: #1DB954;
+    font-size: 1.1em;
+    color: #fefefe;
+    padding: 0.44em 2em;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.section.first .plans-container .plan .internal-section {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0.9em;
+    background-color: #191414;
+    color: #fefefe;
+    height: 2.3em;
+    font-size: 1.2em;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.section.first .plans-container .plan .internal-section :first-child {
+    border-right: 1px solid #fefefe;
+    padding-right: 1em;
+    margin-left: 1em;
+    margin-bottom: 8px;
+}
+
+.section.first .plans-container .plan .family-plan-h2 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.section.first .plans-container .plan .family-plan-button {
+    margin-top: 2.1em;
+}
+
+.section.first .plans-container .plan .internal-section.family-plan-section p {
+    border-right: unset;
+}
+
+/* SECTION-SECOND */
+
+.section.second {
+    height: 21em;
+    display: flex;
+    justify-content: center;
+    gap: 2.5em;
+    align-items: center;
+}
+
+.section.second .internal-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 53em;
+}
+
+.section.second .internal-section .bold-p {
+    font-size: 1.4em;
+    font-weight: 900;
+}
+
+.section.second .internal-section p:not(.bold-p) {
+    max-width: 800px;
+}
+
+.section.second img {
+    display: block;
+    height: 13em;
+}
+
+/* SECTION-THIRD */
+
+.section.third {
+    height: 26em;
+}
+
+.section.third > * {
+    text-align: center;
+}
+
+.section.third > h2 {
+    font-size: 2.3em;
+}
+
+.section.third > p {
+    margin-block: 1.5em;
+}
+
+.section.third .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.section.third .content-container section {
+    display: flex;
+    justify-content: space-between;
+    gap: 15em;
+    width: 59em;
+    position: relative;
+}
+
+.section.third .content-container section > p {
+    margin-left: 0.5em;
+}
+
+.section.third .content-container section .check-img {
+    position: absolute;
+    right: 15em;
+}
+
+.section.third .content-container section .cross-img {
+    margin-right: 3.2em;
+}
+
+.section.third .content-container > :nth-child(even) {
+    background-color: #81D8A0;
+    padding: 0.6em 0.3em;
+}
+
+.section.third .content-container > :nth-child(odd) {
+    background-color: #CCCBCB;
+    padding: 0.7em 0.3em;
+}
+
+.section.third .content-container > :first-child {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.section.third .content-container > :last-child {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+/* SITE-FOOTER */
+
+.site-footer {
+    height: 2.5em;
+    background-color: #191414;
+    text-align: center;
+    color: #fefefe;
+    padding-top: 1.2em;
+    font-size: 0.84em;
+}
+
