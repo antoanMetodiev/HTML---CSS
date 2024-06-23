@@ -46,9 +46,7 @@ body {
     border-radius: 12px;
 }
 
-.card .img-wrapper > section h2 {
-    margin-bottom: 0.45em;
-}
+.card .img-wrapper > section h2 { margin-bottom: 0.45em; }
 
 /* META-INFO */
 
@@ -64,6 +62,4 @@ body {
     gap: 0.6em;
 }
 
-.card .meta-info h2 {
-    margin-bottom: 0.5em;
-}
+.card .meta-info h2 { margin-bottom: 0.5em; }
