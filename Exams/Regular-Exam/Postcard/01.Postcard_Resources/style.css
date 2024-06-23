@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Gochi Hand';
+    background-color: #DFDFDF;
+}
+
+.card {
+    width: 50em;
+    margin: 3em auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+
+.card .img-wrapper {
+    padding: 1.1em;
+    background-color: #FEFEFE;
+    position: relative;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card .img-wrapper img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card .img-wrapper > section {
+    position: absolute;
+    color: #000;
+    width: 43.3em;
+    height: 6.6em;
+    background-color: #F5F5F5;
+    text-align: center;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1.1em;
+    border-radius: 12px;
+}
+
+.card .img-wrapper > section h2 {
+    margin-bottom: 0.45em;
+}
+
+/* META-INFO */
+
+.card .meta-info {
+    background-color: #F9F9F9;
+    padding: 1em 0em 0.3em 2em;
+    height: 8.8em;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top: 1px solid #CCCCCC;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6em;
+}
+
+.card .meta-info h2 {
+    margin-bottom: 0.5em;
+}
